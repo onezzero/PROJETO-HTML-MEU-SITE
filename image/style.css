@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* estilo do cabecalho */
+body{
+    padding: 40px 4%;
+}
+body >.interface{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+body a{
+    color: #fff;
+    text-decoration: none;
+}
+body nav ul li {
+      list-style-type: none;
+}
+body nav ul li{
+    display:inline-block;
+    padding: 0 40px;
+}
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.txt-top-site flex{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.topo-do-site h1{
+      color: #fff;
+      font-size: 34px;
+}
+.txt-top-site p{
+    color: #fff;
+}

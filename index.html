@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Diego Faria</title>
+    <style>
+        /* Define o fundo do site como preto e o texto como branco */
+        body {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para a tarja cinza no menu */
+        .tarja-cinza-menu {
+            background-color: #808080; /* Fundo cinza */
+            padding: 10px 0; /* Espaçamento interno vertical */
+            text-align: center;
+        }
+
+        /* Estilo para alinhar os itens do menu */
+        nav {
+            margin-top: 0; /* Removendo o espaçamento superior do menu */
+        }
+
+        nav ul {
+            list-style-type: none; /* Remove as bolinhas da lista */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Alinha os itens lado a lado */
+            justify-content: space-around; /* Distribui os itens igualmente */
+        }
+
+        nav ul li {
+            margin: 0 10px; /* Espaçamento entre os itens */
+        }
+
+        nav ul li a {
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #fff; /* Cor do texto dos links branco */
+            font-weight: bold; /* Negrito nos links */
+        }
+
+        nav ul li a:hover {
+            color: #007bff; /* Cor do link ao passar o mouse */
+        }
+
+        /* Centraliza o texto na tela */
+        .centralizado {
+            text-align: center;
+            margin-top: 100px; /* Espaçamento superior para posicionar o texto no centro */
+        }
+
+        /* Adiciona a animação para a imagem */
+        .imagem-animada {
+            display: block;
+            margin: 20px auto 0; /* Centraliza a imagem com margem superior de 20px */
+            animation: movimentoVertical 3s ease-in-out infinite; /* Animação contínua */
+        }
+
+        @keyframes movimentoVertical {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px); /* Movimento para cima */
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="tarja-cinza-menu"> <!-- Adicionando tarja cinza -->
+            <nav> 
+                <ul>
+                    <li><a href="quem-sou.html">QUEM SOU</a></li>
+                    <li><a href="formacao-academica.html">FORMAÇÃO ACADÊMICA</a></li>
+                    <li><a href="portifolio.html">PORTFÓLIO</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="topo-do-site centralizado">
+            <h1>SEJA BEM-VINDO</h1>
+            <img src="image/imagem.png 1.avif"Imagem Animada" class="imagem-animada"> <!-- Imagem animada -->
+        </section>
+    </main>
+</body>
+</html>

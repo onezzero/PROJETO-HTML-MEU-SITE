@@ -1,0 +1,22 @@
+/* Estilo para alinhar os itens do menu */
+nav ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinha os itens lado a lado */
+    justify-content: space-around; /* Distribui os itens igualmente */
+}
+
+nav ul li {
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Define a cor do texto dos links */
+    font-weight: bold; /* Adiciona negrito aos links, opcional */
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Muda a cor do link ao passar o mouse, opcional */
+}
